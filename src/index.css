@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  color: #212529;
+  padding: 40px;
+}
+
+.collapse-btn {
+  display: block;
+  padding: 6px 12px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  background: #0e6ff4;
+}
+
+.collapse-content {
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 4px;
+  width: max-content;
+  display: none;
+}
+
+.collapse-content.expanded {
+  display: block;
+}
+
+
